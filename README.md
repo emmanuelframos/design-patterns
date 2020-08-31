@@ -63,6 +63,14 @@ It is often used to make existing classes work with others without modifying the
 - How can classes that have incompatible interfaces work together?
 - How can an alternative interface be provided for a class?
 
+#### Bridge
+Decouples an abstraction from its implementation so that the two can vary independently.
+
+The bridge uses encapsulation, aggregation, and can use inheritance to separate responsibilities into different classes.
+
+**Solve problems like:**
+- An abstraction and its implementation should be defined and extended independently from each other.
+- A compile-time binding between an abstraction and its implementation should be avoided so that an implementation can be selected at run-time.
 ### Dependencies
 ```
 *   Java 1.8 (https://www.oracle.com/java/technologies/javase-jdk8-downloads.html)
