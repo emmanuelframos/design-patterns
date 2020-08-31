@@ -71,6 +71,18 @@ The bridge uses encapsulation, aggregation, and can use inheritance to separate 
 **Solve problems like:**
 - An abstraction and its implementation should be defined and extended independently from each other.
 - A compile-time binding between an abstraction and its implementation should be avoided so that an implementation can be selected at run-time.
+
+####Composite
+The composite pattern describes a group of objects that are treated the same way as a single instance of the same type of object. 
+ 
+The intent of a composite is to "compose" objects into tree structures to represent part-whole hierarchies. 
+ 
+Implementing the composite pattern lets clients treat individual objects and compositions uniformly
+
+**Solve problems like:**
+- A part-whole hierarchy should be represented so that clients can treat part and whole objects uniformly.
+- A part-whole hierarchy should be represented as tree structure.
+
 ### Dependencies
 ```
 *   Java 1.8 (https://www.oracle.com/java/technologies/javase-jdk8-downloads.html)
