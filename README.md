@@ -90,6 +90,12 @@ Allows behavior to be added to an individual object, dynamically, without affect
 - Responsibilities should be added to (and removed from) an object dynamically at run-time.
 - A flexible alternative to subclassing for extending functionality should be provided.
 
+#### Facade
+A facade is an object that serves as a front-facing interface masking more complex underlying or structural code.
+
+**Solve problems like:**
+- To make a complex subsystem easier to use, a simple interface should be provided for a set of interfaces in the subsystem.
+- The dependencies on a subsystem should be minimized.
 ### Dependencies
 ```
 *   Java 1.8 (https://www.oracle.com/java/technologies/javase-jdk8-downloads.html)
