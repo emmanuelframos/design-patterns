@@ -8,10 +8,10 @@
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>bridge</artifactId>
+    <artifactId>decorator</artifactId>
     <version>1.0.0</version>
 
-    <name>Design Patterns - Bridge</name>
-    <description>Design Patterns - Bridge</description>
+    <name>Design Patterns - Decorator</name>
+    <description>Design Patterns - Decorator</description>
 
 </project>

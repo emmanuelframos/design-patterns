@@ -83,6 +83,13 @@ Implementing the composite pattern lets clients treat individual objects and com
 - A part-whole hierarchy should be represented so that clients can treat part and whole objects uniformly.
 - A part-whole hierarchy should be represented as tree structure.
 
+#### Decorator
+Allows behavior to be added to an individual object, dynamically, without affecting the behavior of other objects from the same class.
+
+**Solve problems like:**
+- Responsibilities should be added to (and removed from) an object dynamically at run-time.
+- A flexible alternative to subclassing for extending functionality should be provided.
+
 ### Dependencies
 ```
 *   Java 1.8 (https://www.oracle.com/java/technologies/javase-jdk8-downloads.html)
