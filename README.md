@@ -115,6 +115,17 @@ The proxy could interface to anything: a network connection, a large object in m
 - The access to an object should be controlled.
 - Additional functionality should be provided when accessing an object.
 
+#### Command
+Encapsulates all information needed to perform an action or trigger an event at a later time. 
+
+This information includes the method name, the object that owns the method and values for the method parameters.
+
+**Solve problems like:**
+- Coupling the invoker of a request to a particular request should be avoided. 
+That is, hard-wired requests should be avoided.
+- It should be possible to configure an object (that invokes a request) with a request.
+
+
 ### Dependencies
 ```
 *   Java 1.8 (https://www.oracle.com/java/technologies/javase-jdk8-downloads.html)
