@@ -42,6 +42,7 @@
         <module>decorator</module>
         <module>facade</module>
         <module>flyweight</module>
+        <module>proxy</module>
     </modules>
 
     <dependencies>

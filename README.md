@@ -106,6 +106,15 @@ Often some parts of the object state can be shared, and it is common practice to
 - Large numbers of objects should be supported efficiently.
 - Creating large numbers of objects should be avoided.
 
+#### Proxy
+A proxy, in its most general form, is a class functioning as an interface to something else. 
+
+The proxy could interface to anything: a network connection, a large object in memory, a file loading, or some other resource. 
+
+**Solve problems like:**
+- The access to an object should be controlled.
+- Additional functionality should be provided when accessing an object.
+
 ### Dependencies
 ```
 *   Java 1.8 (https://www.oracle.com/java/technologies/javase-jdk8-downloads.html)
