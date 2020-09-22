@@ -11,7 +11,7 @@ Design patterns are formalized best practices that the programmer can use to sol
 Design patterns may be viewed as a structured approach to computer programming intermediate between the levels of a programming paradigm and a concrete algorithm.
 
 ### Creational Patterns
-####Abstract Factory
+#### Abstract Factory
  A class requests the objects it requires from a factory object instead of creating the objects directly. 
  
  Provides a way to encapsulate a group of individual factories that have a common theme.
@@ -72,7 +72,7 @@ The bridge uses encapsulation, aggregation, and can use inheritance to separate 
 - An abstraction and its implementation should be defined and extended independently from each other.
 - A compile-time binding between an abstraction and its implementation should be avoided so that an implementation can be selected at run-time.
 
-####Composite
+#### Composite
 The composite pattern describes a group of objects that are treated the same way as a single instance of the same type of object. 
  
 The intent of a composite is to "compose" objects into tree structures to represent part-whole hierarchies. 
@@ -115,6 +115,7 @@ The proxy could interface to anything: a network connection, a large object in m
 - The access to an object should be controlled.
 - Additional functionality should be provided when accessing an object.
 
+### Behavioral Patterns
 #### Command
 Encapsulates all information needed to perform an action or trigger an event at a later time. 
 
@@ -125,6 +126,14 @@ This information includes the method name, the object that owns the method and v
 That is, hard-wired requests should be avoided.
 - It should be possible to configure an object (that invokes a request) with a request.
 
+#### Chain of Responsibility
+Defines a chain of receiver objects having the responsibility, depending on run-time conditions, to either handle a request or forward it to the next receiver on the chain (if any).
+
+**Solve problems like:**
+- Coupling the sender of a request to its receiver should be avoided.
+- It should be possible that more than one receiver can handle a request.
+ 
+  
 
 ### Dependencies
 ```

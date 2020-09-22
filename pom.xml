@@ -45,6 +45,7 @@
         <module>proxy</module>
 
         <module>command</module>
+        <module>chain-of-responsibility</module>
     </modules>
 
     <dependencies>
