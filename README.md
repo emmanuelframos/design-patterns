@@ -133,6 +133,18 @@ Defines a chain of receiver objects having the responsibility, depending on run-
 - Coupling the sender of a request to its receiver should be avoided.
 - It should be possible that more than one receiver can handle a request.
  
+#### Mediator
+Defines an object that encapsulates how a set of objects interact.
+ 
+Communication between objects is encapsulated within a mediator object. 
+
+Objects no longer communicate directly with each other, but instead communicate through the mediator. 
+
+This reduces the dependencies between communicating objects, thereby reducing coupling.
+
+**Solve problems like:**
+- Tight coupling between a set of interacting objects should be avoided.
+- It should be possible to change the interaction between a set of objects independently. 
   
 
 ### Dependencies
