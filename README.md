@@ -146,6 +146,13 @@ This reduces the dependencies between communicating objects, thereby reducing co
 - Tight coupling between a set of interacting objects should be avoided.
 - It should be possible to change the interaction between a set of objects independently. 
   
+#### Observer
+The observer pattern is a software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods.
+
+**Solve problems like:**
+- A one-to-many dependency between objects should be defined without making the objects tightly coupled.
+- It should be ensured that when one object changes state an open-ended number of dependent objects are updated automatically.
+- It should be possible that one object can notify an open-ended number of other objects.
 
 ### Dependencies
 ```
